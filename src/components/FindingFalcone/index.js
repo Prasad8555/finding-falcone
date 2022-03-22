@@ -91,7 +91,7 @@ class FindingFalcone extends Component {
 
   getToken = async () => {
     // this function returns token
-    const tokenUrl = 'https://findfalcone.herokuapp.com/toke'
+    const tokenUrl = 'https://findfalcone.herokuapp.com/token'
     const options = {
       headers: {
         Accept: 'application/json',

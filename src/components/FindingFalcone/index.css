@@ -1,0 +1,214 @@
+.finding-falcone-app {
+  background-image: url('https://res.cloudinary.com/aguruprasad/image/upload/v1647331303/wallpaperflare.com_wallpaper_10_qzuugy.jpg');
+  height: 93vh;
+  background-size: cover;
+  margin: -12px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-container {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+}
+
+.nav-buttons-container {
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-around;
+  width: 15vw;
+}
+
+.nav-button {
+  background-color: transparent;
+  color: #fff;
+  border: 0px solid;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  color: #fff;
+}
+
+.description {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 38px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.user-planets-vehicles-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planets-vehicles-background-container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: 'Roboto';
+  width: 80vw;
+}
+
+.planet-vehicle-container {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 14vw;
+}
+
+.planets-selector-label {
+  margin-bottom: 12px;
+}
+
+.planet-selector {
+  padding: 4px;
+  font-family: 'Roboto';
+}
+
+.select-option {
+  display: none;
+}
+
+.vehicles-list {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.vehicle-list-item {
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+
+.disabled-vehicle-label {
+  color: #c2c2c2;
+}
+
+.time-taken {
+  font-size: 22px;
+  font-family: 'Roboto';
+  width: 14vw;
+}
+
+.time {
+  font-size: 18px;
+  color: rgb(255, 81, 0);
+}
+
+.find-falcone-button {
+  width: 130px;
+  height: 34px;
+  border: 2px solid rgb(0, 255, 98);
+  border-radius: 12px;
+  background-color: #fff;
+  color: #000000;
+  font-weight: 600;
+}
+
+.disabled-button {
+  background-color: #333333;
+  color: #c2c2c2;
+  border: 2px solid rgb(255, 1, 1);
+}
+
+.result-container {
+  height: 50vh;
+  width: 80vw;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  text-align: center;
+  font-size: 22px;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 60vw;
+  border-radius: 18px;
+}
+
+.failure-image {
+  width: 20vw;
+}
+
+.failure-text {
+  font-size: 22px;
+  text-align: center;
+  color: rgb(194, 217, 255);
+  font-family: 'Roboto';
+}
+
+.start-again-button {
+  height: 52px;
+  width: 130px;
+  border: 2px solid #3742dd;
+  border-radius: 12px;
+  background-color: rgb(147, 183, 250);
+  color: #1f2046;
+}
+
+@media screen and (orientation: portrait) {
+  .finding-falcone-app {
+    height: 100%;
+  }
+  .loading-container {
+    height: 90vh;
+  }
+
+  .nav-buttons-container {
+    width: 35vw;
+    justify-content: space-around;
+  }
+  .nav-button {
+    font-size: 12px;
+  }
+  .description {
+    margin-bottom: 12px;
+  }
+  .planets-vehicles-background-container {
+    flex-direction: column;
+  }
+  .planet-vehicle-container {
+    width: auto;
+    height: 25vh;
+  }
+  .result-container {
+    height: 90vh;
+    justify-content: flex-start;
+    font-size: 16px;
+  }
+  .time-taken {
+    width: 80vw;
+    margin-bottom: 32px;
+  }
+  .failure-view-container {
+    height: 81vh;
+  }
+}
